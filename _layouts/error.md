@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang | default: "en-US" }}">
   {% include head.md %}
   <body>
-    {% include header.md %}
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class="main-content">
+      {{ content }}
     </div>
+    {% include acknowledgments.md %}
+    {% include footer.md %}
   </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Installing i3, a Tiling Window Manager for light Environments."
+subtitle: Here I'll show you a light desktop environment to save the RAM consume.
 date:   2017-05-06 04:05:12 -0500
 categories: Window_Manager
 ---
@@ -11,19 +12,16 @@ i3 don't use a GUI.
 * Installing on Debian based OS:
 
       sudo -i
-      echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" >> /etc/apt/sources.list
-      apt-get update
-      apt-get --allow-unauthenticated install sur5r-keyring
       apt-get update
       apt-get install i3
 
 * Configure bar attributes in :
 
-      nano /etc/i3status.conf
+      cat /etc/i3status.conf
 
 * Configurate i3 key-actions in `/etc/i3/config`:
 
-      nano /etc/i3/config
+      cat /etc/i3/config
 
 * To lock screen, we add this line in `/etc/i3/config` file:
 
@@ -33,6 +31,14 @@ i3 don't use a GUI.
 
 You can download my configuration pack pressing [here][i3-url]. Uncompress and copy files.  
 For images, create a `~/.i3/images` directory and copy the files there.
+
+There you can found my configuration files:
+
+* `i3status.conf` file copy to `/etc/i3status.conf`.
+
+* `config` file copy to `/etc/i3/config`
+
+* `images` directory, move to `~/.i3/images/`.
 
 ## Preview
 
@@ -68,6 +74,6 @@ Here is an example on my localhost, i3 using Vim, slurm, htop, ranger and alsami
       $mod + Shift + x    Lock Screen
 
 
-[lightEnviron]:  /pages/light_environment_debian
+[lightEnviron]:  /guides/light_environment_debian
 [i3-wm]:         /assets/WindowManager/Tiling/i3_wm.png
-[i3-url]:        https://github.com/Jenazads/i3-wm_personalConfig
+[i3-url]:        /files/i3-config.zip

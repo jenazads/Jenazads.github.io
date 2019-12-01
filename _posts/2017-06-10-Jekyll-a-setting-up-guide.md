@@ -1,15 +1,21 @@
 ---
 layout: post
 title:  "Jekyll, a setting up guide."
+subtitle: Here you'll learn how to setup your Jekyll serve, is very useful if you work with static pages.
 date:   2017-06-10 00:20:12 -0500
 categories: webServices
 ---
 # Jekyll
 
 Is a simple blog, static site generator for personal projects.  
-Jekyll is written in Ruby.
+Jekyll is written in Ruby.  
+See more info [here](https://jekyllrb.com/).
 
 ## Installing
+
+First, make sure you have all gcc dependencies:
+
+    sudo apt-get install build-essential
 
 For installing Jekyll, we just need install some dependencies:
 
@@ -23,8 +29,19 @@ For installing Jekyll, we just need install some dependencies:
 
 * Jekyll:
 
-      sudo gem install bundler  
-      sudo gem install jekyll 
+      sudo gem install bundler -v '1.17.3'  
+      sudo gem install jekyll  
+      sudo gem install jekyll-seo-tag  
+      sudo gem install jekyll-feed  
+      sudo gem install jekyll-theme-cayman-blog  
+
+* If your have a requeriments doc, go to the parent directory and run:
+
+      bundle install
+
+* If you already have a web page, just run (if you have some errors):
+
+      bundle exec jekyll serve
 
 ## Creating a static web
 
@@ -41,7 +58,11 @@ Then, install components:
 
 ![jekyll-install][jekyll_install]
 
-Finally, start the static web:
+#### Themes
+
+## Serve
+
+Finally, start the static web by default in port 4000:
 
     jekyll serve
 

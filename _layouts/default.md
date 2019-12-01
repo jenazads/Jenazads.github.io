@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang | default: "en-US" }}">
   {% include head.md %}
+  {% include mathjax.md %}
   <body>
-    {% include header.md %}
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    {% include mainbar.md %}
+    {% include beginpage.md %}
+    <div class="main-content">
+      {{ content }}
     </div>
     {% include footer.md %}
   </body>

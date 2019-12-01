@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Configurating a light Environment for a Operating System."
+subtitle: Here you'll learn how to perform and avoid to consume too much RAM in your computer.
 date:   2017-05-05 00:15:12 -0500
 categories: Operating-Systems
 ---
@@ -26,11 +27,11 @@ Configure and preparing a good development environment lite OS.
     |-- Windows
 
 
-* [EnvironmentLiteDebian][debian-url]  
+* [Environment Lite Debian][debian-url]  
 > Operating Systems based on Debian like Ubuntu or Deepin.
 
-* [EnvironmentLitewindows][windows-url]  
+* [Environment Lite windows][windows-url]  
 > Windows Operating System.
 
-[debian-url]:   /docs/light_environment_debian
-[windows-url]:  /docs/light_environment_windows
+[debian-url]:   /os/light_environment_debian
+[windows-url]:  /os/light_environment_windows

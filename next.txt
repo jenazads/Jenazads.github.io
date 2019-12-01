@@ -1,7 +1,3 @@
-datacenter (storages and servers), data warehouse -> data mart.
-
-DB cluster.
-
 GPU cluster.
 
 CPU benchmark, MQTT benchmark, HTTP benchmark.
@@ -9,25 +5,28 @@ MPICH cluster.
 
 VM-OS-level (docker).
 
-how nestor manipulates inbounds/outbounds ports and networks in CTIC.
-how yauri administrates servers on CTIC
-
 Cloud service - IaaS, PaaS, SaaS, XaaS - like cluster processing and data analysis.
 
 light environment redhat, slackware, archlinux, windows.
-
-corregir el navbar menu.
-
-modificar las paginas post (añadir una imagen de background).
-
-complete Byobu
 
 How create certs with OpenSSL --> website --> (Atalerix) sclateri (erizo)
 How send mails --> website --> (Tursiops) aduncus (delfin)
 How create mqtt clients --> website --> 
 
+WEB PAGE
+
+Ordenar los post (buscador de post, mostrar por cuadros, unos 6 posts por pagina).
+
+Interactive chat.
+
+COMPLETE TUTORIALS
+
+CPU Cluster -> MPICH cluster
+
 node-red -> watson
 
 CRM - ORM
 
-Handler class golang
+Apache flink
+
+Creating VP with laravel and APACHE

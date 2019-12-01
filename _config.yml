@@ -1,59 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+## WEBSITE DESCRIPTION
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Jenazads Website
-description: > # this means to ignore newlines until "baseurl:"
-  You can use all this information for your things :), don't dudes on follow me on github and other social networks.
+title: Felipe A. Moreno
+description: You can use all this information for your things :)
+             Don't dudes on follow me on github and other social networks.
 baseurl: "" # the subpath of your site, e.g. /blog
+
+## PERMANENT LINK OF POSTS
+
 #permalink: /blog/:categories/:year/:month/:day/:title
 permalink: /:categories/:title
-url: "http://Jenazad.github.io/"
-author:
-  name       : Felipe A. Moreno
-  gmail      : felipe.moreno.vera@gmail.com
 
-twitch_username    : Jenazads
-vimeo_username     : Jenazads
-linkedin_username  : Jenazads
-twitter_username   : Jenazads
-facebook_username  : Jenazads
-instagram_username : Jenazads
-f6s_username       : Jenazads
-bitbucket_username : Jenazads
-github_username    : Jenazads
-codeforces_username: Jenazads
-hackerrank_username: Jenazads
+show_downloads: true
 
-twitch_url    : "https://www.twitch.tv/"
-vimeo_url     : "https://www.vimeo.com/"
-linkedin_url  : "https://www.linkedin.com/in/"
-twitter_url   : "https://www.twitter.com/"
-facebook_url  : "https://www.facebook.com/"
-instagram_url : "https://www.instagram.com/"
-f6s_url       : "https://www.f6s.com/"
-bitbucket_url : "https://www.bitbucket.org/"
-github_url    : "https://www.github.com/"
-codeforces_url: "http://codeforces.com/profile/"
-hackerrank_url: "https://www.hackerrank.com/"
+## MAIN URL
 
-# Build settings
+url: "http://www.jenazads.com/"
+
+## ANALYTICS ID
+
+google_analytics:
+
+# BUILD SETTINGS
+
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+theme: jekyll-theme-cayman
+#plugins:
+#  - jekyll-feed
 #exclude:
 #  - Gem/Gemfile
 #  - Gem/Gemfile.lock
-
